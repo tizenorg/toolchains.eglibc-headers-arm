@@ -17,13 +17,14 @@
 ### only changes here
 #
 # The original package name
-%define oldname eglibc-headers
+%define oldname glibc-headers
 #
 # The architectures this meta package is built on
 %define myexclusive %arm
 #
 ### no changes needed below this line
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 
 ### no changes needed
@@ -88,7 +89,7 @@ Source40:      files_to_ignore
 %endif
 Source100:     baselibs.conf
 
-Provides: glibc-headers-arm
+Provides: eglibc-headers-arm
 
 %description
 This is a meta-package providing %name.
